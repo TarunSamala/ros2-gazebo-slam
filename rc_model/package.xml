@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rc_model</name>
+  <version>0.0.1</version>
+  <description>RC car URDF/Xacro model for ROS 2 and Gazebo</description>
+
+  <maintainer email="jak532@cornell.edu">Jason Klein</maintainer>
+  <license>MIT</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>gazebo_ros</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
